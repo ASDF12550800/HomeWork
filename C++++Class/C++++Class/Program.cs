@@ -33,7 +33,7 @@ namespace C____Class {
                 Console.Write("Number : ");
                 int    Int   = Convert.ToInt32(Console.ReadLine());
                 float  Float = Int;
-                string Str  = Convert.ToString(Float);
+                string Str   = Convert.ToString(Float);
                 // --------------------------- //
                 Console.WriteLine("Int    : " + Int   + " | Type : " + Int.GetType());
                 Console.WriteLine("Float  : " + Float + " | Type : " + Float.GetType());
