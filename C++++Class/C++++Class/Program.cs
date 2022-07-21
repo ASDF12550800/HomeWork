@@ -23,6 +23,21 @@ namespace C____Class {
                 Console.WriteLine(str + "{0}, {1}", input_1, input_2);
                 Console.WriteLine(str + input_1 + ", " + input_2);
                 Console.WriteLine(new string(str + input_1 + ", " + input_2));
+                Console.ReadKey();
+            }
+
+            Console.Clear();
+
+            // 03
+            {
+                Console.Write("Number : ");
+                int    Int   = Convert.ToInt32(Console.ReadLine());
+                float  Float = Int;
+                string Str  = Convert.ToString(Float);
+                // --------------------------- //
+                Console.WriteLine("Int    : " + Int   + " | Type : " + Int.GetType());
+                Console.WriteLine("Float  : " + Float + " | Type : " + Float.GetType());
+                Console.WriteLine("String : " + Str   + " | Type : " + Str.GetType());
             }
         }
     }
