@@ -48,9 +48,9 @@ namespace C____Class {
                 Console.Write("input float : "); float Input_1 = Convert.ToSingle(Console.ReadLine());
                 Console.Write("input float : "); float Input_2 = Convert.ToSingle(Console.ReadLine());
                 // ---------------------------------------------------- //
-                Console.WriteLine("+ : " + (Input_1 + Input_2));
-                Console.WriteLine("- : " + (Input_1 - Input_2));
+                Console.WriteLine("+ : " + MathF.Round(Input_1 + Input_2, 2));
                 Console.WriteLine("% : " + (Input_1 % Input_2));
+                Console.WriteLine("- : " + (Input_1 - Input_2));
                 Console.WriteLine("/ : " + (Input_1 / Input_2));
                 Console.WriteLine("* : " + (Input_1 * Input_2));
             }
