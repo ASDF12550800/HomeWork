@@ -38,7 +38,23 @@ namespace C____Class {
                 Console.WriteLine("Int    : " + Int   + " | Type : " + Int.GetType());
                 Console.WriteLine("Float  : " + Float + " | Type : " + Float.GetType());
                 Console.WriteLine("String : " + Str   + " | Type : " + Str.GetType());
+                Console.ReadKey();
             }
+
+            Console.Clear();
+
+            // 04
+            {
+                Console.Write("input float : "); float Input_1 = Convert.ToSingle(Console.ReadLine());
+                Console.Write("input float : "); float Input_2 = Convert.ToSingle(Console.ReadLine());
+                // ---------------------------------------------------- //
+                Console.WriteLine("+ : " + (Input_1 + Input_2));
+                Console.WriteLine("- : " + (Input_1 - Input_2));
+                Console.WriteLine("% : " + (Input_1 % Input_2));
+                Console.WriteLine("/ : " + (Input_1 / Input_2));
+                Console.WriteLine("* : " + (Input_1 * Input_2));
+            }
+
         }
     }
 }
