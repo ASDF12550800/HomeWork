@@ -5,7 +5,7 @@ namespace C____Class {
         static void Main(string[] args) {
             Console.Write("Input : "); int Input_1 = Convert.ToInt32(Console.ReadLine());
             string All_Culc  = "" + Input_1;
-            for (; ; )
+            for (;;)
             {
                 Console.Write("Type : "); string Type = Console.ReadLine();
                 Console.Write("Input : "); int Input_2 = Convert.ToInt32(Console.ReadLine());
