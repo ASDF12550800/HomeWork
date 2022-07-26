@@ -4,8 +4,7 @@ namespace C____Class {
     class Program {
         static void Main(string[] args) {
             Console.Write("Input : "); int Input_1 = Convert.ToInt32(Console.ReadLine());
-            string All_Culc = "";
-            All_Culc = "" + Input_1;
+            string All_Culc  = "" + Input_1;
             for (; ; )
             {
                 Console.Write("Type : "); string Type = Console.ReadLine();
